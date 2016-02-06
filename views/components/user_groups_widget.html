@@ -1,7 +1,7 @@
 <div class="ow_lp_avatars">
         {foreach from=$list item=item}
             <a href="{$item.url}" class="ow_lp_wrapper" title="{$item.title}">
-                <img src="{$item.image}" width="45" />
+                <img alt="{$item.title}" src="{$item.image}" width="45" />
             </a>
         {foreachelse}
             <div class="ow_nocontent">
